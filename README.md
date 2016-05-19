@@ -45,7 +45,7 @@ You can use composer to use this library.
 ```
 {
     "require": {
-		"alfallouji/dhl_api": "*"
+		"jacob_v_dam/dhl_api": "*"
     }
 }
 ```
