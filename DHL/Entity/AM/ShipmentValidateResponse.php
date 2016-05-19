@@ -223,7 +223,7 @@ class ShipmentValidateResponse extends Base
             'comment' => 'ISO country codes',
             'length' => '2',
         ), 
-        'Barcodes' => array(
+        'BarCodes' => array(
             'type' => 'string',
             'required' => false,
             'subobject' => true,
