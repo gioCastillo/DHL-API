@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263e311a-3f52-4f55-b8e6-45790b79b217" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DHL/Datatype/Base.php" afterPath="$PROJECT_DIR$/DHL/Datatype/Base.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/DHL-API.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="DHL-API.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -285,7 +291,7 @@
       <updated>1463669322380</updated>
       <workItem from="1463669323551" duration="109000" />
       <workItem from="1463669594177" duration="94000" />
-      <workItem from="1464079096139" duration="2851000" />
+      <workItem from="1464079096139" duration="2878000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed another typo">
       <created>1464080372615</created>
@@ -298,7 +304,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3054000" />
+    <option name="totallyTimeSpent" value="3081000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
