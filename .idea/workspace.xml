@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="263e311a-3f52-4f55-b8e6-45790b79b217" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="263e311a-3f52-4f55-b8e6-45790b79b217" name="Default" comment="" />
     <ignored path="DHL-API.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -295,7 +293,7 @@
       <updated>1463669322380</updated>
       <workItem from="1463669323551" duration="109000" />
       <workItem from="1463669594177" duration="94000" />
-      <workItem from="1464079096139" duration="3296000" />
+      <workItem from="1464079096139" duration="3468000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed another typo">
       <created>1464080372615</created>
@@ -308,7 +306,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3499000" />
+    <option name="totallyTimeSpent" value="3671000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,7 +319,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="160" y="203" width="1440" height="837" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
