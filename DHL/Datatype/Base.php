@@ -269,7 +269,6 @@ abstract class Base
     {
         if (!array_key_exists($key, $this->_values))
         {
-            dd($this->_values, $key);
             throw new \InvalidArgumentException('Field : ' . $key . ' is not defined for ' . get_class($this));
         }
 
