@@ -47,7 +47,7 @@ class BarCodes extends Base
             'subobject' => false,
             'comment' => '',
         ), 
-        'OriginDestnBarcode' => array(
+        'OriginDestnBarCode' => array(
             'type' => 'string',
             'required' => false,
             'subobject' => false,
