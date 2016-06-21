@@ -41,8 +41,8 @@ class Place extends Base
      * @var array
      */
     protected $_params = array(
-        'ResidenceOrBusiness' => array(
-            'type' => 'ResidenceOrBusiness',
+        'LocationType' => array(
+            'type' => 'LocationType',
             'required' => false,
             'subobject' => false,
             'comment' => 'Identifies if a location is a business, residence,
@@ -58,13 +58,27 @@ class Place extends Base
             'minLength' => '0',
             'maxLength' => '35',
         ), 
-        'AddressLine' => array(
-            'type' => 'AddressLine',
+        'Address1' => array(
+            'type' => 'string',
             'required' => true,
             'subobject' => false,
             'comment' => 'Address Line',
-            'maxLength' => '35',
+            'multivalues' => true,
         ), 
+        'Address2' => array(
+            'type' => 'string',
+            'required' => true,
+            'subobject' => false,
+            'comment' => 'Address Line',
+            'multivalues' => true,
+        ),
+        'PackageLocation' => array(
+            'type' => 'PackageLocation',
+            'required' => false,
+            'subobject' => false,
+            'comment' => 'PackageLocation',
+            'maxLength' => '40',
+        ),
         'City' => array(
             'type' => 'City',
             'required' => false,
@@ -99,13 +113,20 @@ class Place extends Base
             'subobject' => false,
             'comment' => 'Full postal/zip code for address',
             'maxLength' => '12',
-        ), 
-        'PackageLocation' => array(
-            'type' => 'PackageLocation',
+        ),
+        'RouteCode' => array(
+            'type' => 'RouteCode',
             'required' => false,
             'subobject' => false,
-            'comment' => 'PackageLocation',
-            'maxLength' => '40',
-        ), 
+            'comment' => 'Route code.',
+            'maxLength' => '35',
+        ),
+        'Suburb' => array(
+            'type' => 'Suburb',
+            'required' => false,
+            'subobject' => false,
+            'comment' => 'Route code.',
+            'maxLength' => '35',
+        ),
     );
 }

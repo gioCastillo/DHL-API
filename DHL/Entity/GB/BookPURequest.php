@@ -49,13 +49,19 @@ class BookPURequest extends Base
     protected $_serviceXSD = 'BookPURequest.xsd';
 
     /**
+     * @var boolean
+     * Render the schema version or not
+     */
+    protected $_displaySchemaVersion = true;
+
+    /**
      * Parameters to be send in the body
      * @var array
      */
     protected $_bodyParams = array(
         'RegionCode' => array(
             'type' => 'string',
-            'required' => false,
+            'required' => true,
             'subobject' => false,
             'comment' => 'RegionCode',
             'minLength' => '2',
@@ -63,9 +69,9 @@ class BookPURequest extends Base
             'enumeration' => 'AP,EU,AM',
         ), 
         'Requestor' => array(
-            'type' => 'string',
+            'type' => 'Requestor',
             'required' => false,
-            'subobject' => false,
+            'subobject' => true,
         ), 
         'Place' => array(
             'type' => 'Place',
@@ -73,14 +79,14 @@ class BookPURequest extends Base
             'subobject' => true,
         ), 
         'Pickup' => array(
-            'type' => 'string',
-            'required' => false,
-            'subobject' => false,
+            'type' => 'Pickup',
+            'required' => true,
+            'subobject' => true,
         ), 
         'PickupContact' => array(
-            'type' => 'string',
+            'type' => 'PickupContact',
             'required' => false,
-            'subobject' => false,
+            'subobject' => true,
         ), 
         'ShipmentDetails' => array(
             'type' => 'ShipmentDetails',

@@ -53,9 +53,6 @@ class Requestor extends Base
             'subobject' => false,
             'comment' => 'Account number',
         ),
-
-
-        
         'PackageType' => array(
             'type' => 'PackageType',
             'required' => false,

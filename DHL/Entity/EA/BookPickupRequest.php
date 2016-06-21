@@ -65,13 +65,13 @@ class BookPickupRequest extends Base
         ), 
         'Pickup' => array(
             'type' => 'string',
-            'required' => false,
-            'subobject' => false,
+            'required' => true,
+            'subobject' => true,
         ), 
         'PickupContact' => array(
-            'type' => 'string',
-            'required' => false,
-            'subobject' => false,
+            'type' => 'Contact',
+            'required' => true,
+            'subobject' => true,
         ), 
         'ShipmentDetails' => array(
             'type' => 'ShipmentDetails',
