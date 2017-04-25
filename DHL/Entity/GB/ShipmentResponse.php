@@ -197,7 +197,7 @@ class ShipmentResponse extends Base
             'subobject' => true,
             'multivalues' => true,
         ), 
-        'BarCodes' => array(
+        'Barcodes' => array(
             'type' => 'BarCodes',
             'required' => false,
             'subobject' => true,
@@ -318,12 +318,17 @@ class ShipmentResponse extends Base
             'type' => 'QtdSInAdCur',
             'required' => false,
             'subobject' => true,
-        ), 
+        ),
+        'Label' => array(
+	        'type' => 'Label',
+	        'required' => false,
+	        'subobject' => true,
+        ),
         'LabelImage' => array(
             'type' => 'LabelImage',
             'required' => false,
             'subobject' => true,
-        ), 
+        ),
         'CustData' => array(
             'type' => 'string',
             'required' => false,
