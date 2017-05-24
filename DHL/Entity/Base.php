@@ -343,7 +343,12 @@ abstract class Base extends BaseDataType
                 {
                     foreach ($this->_values[$name] as $subelement)
                     {
-                        $subelement->validateParameters();
+                        if(is_string($subelement)){
+                            $this->validateParameterType($name, $subelement);
+                            $this->validateParameterValue($name, $subelement);
+                        }else{
+                            $subelement->validateParameters();
+                        }
                     }
                 }
                 else 
