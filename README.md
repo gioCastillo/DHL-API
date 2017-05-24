@@ -47,7 +47,7 @@ You can use composer to use this library.
 ```php
 {
     "require": {
-		"jacob_v_dam/dhl_api": "*"
+		"gio-castillo/dhl_api": "*"
     }
 }
 ```
